@@ -1,6 +1,6 @@
 name: vhs
 on:
-  push:
+  [push, pull_request]:
     paths:
       - vhs.tape
 jobs:
