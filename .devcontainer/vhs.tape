@@ -2,12 +2,12 @@
 Output ./design/recording.gif
 
 # Set up a screen
-Set FontSize 32
-Set Width 1920
-Set Height 1080
+Set FontSize 22
+Set Width 1366
+Set Height 768
 Set TypingSpeed 100ms
 Set Theme "Dracula+"
-Set Framerate 60
+Set Framerate 24
 
 # source the .bashrc file
 Hide
