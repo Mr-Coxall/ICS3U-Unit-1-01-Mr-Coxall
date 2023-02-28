@@ -1,5 +1,5 @@
 # Where should we write the GIF?
-Output ../recording.gif
+Output ./recording.gif
 
 # Set up a screen
 Set FontSize 32
