@@ -1,8 +1,8 @@
 # Where should we write the GIF?
 Output ./design/recording.gif
 
-# Set up a screen
-Set FontSize 22
+# Setup
+Set FontSize 24
 Set Width 1366
 Set Height 768
 Set TypingSpeed 100ms
@@ -13,14 +13,18 @@ Set Framerate 24
 Hide
 Type "source ~/.bashrc"
 Enter
-Type "ls -la ~"
+Type "clear"
+Enter
+Type "ls -a ~"
 Enter
 Show
 
 Sleep 1s
 Type "Clear your terminal first ..."
-Sleep 750ms
+Sleep 1s
+Set TypingSpeed 50ms
 Backspace 29
+Set TypingSpeed 100ms
 Sleep 750ms
 Type "clear"
 Sleep 750ms
@@ -32,7 +36,7 @@ Sleep 750ms
 Enter
 Sleep 750ms
 
-Type "python ./hello_world.py"
+Type "python ./address.py"
 Sleep 750ms
 Enter
 Sleep 750ms
